@@ -1,0 +1,1 @@
+<h1>sende mail from laravel</h2>

@@ -1,0 +1,19 @@
+TEST:
+Develop a basic user profile module
+Workflow
+- user register using user name, password, confirm password, email, date of birth and city
+- one next page, send an otp to email using phpmailer library
+- enter this otp to complete registration
+- username and password should be saved users table and other information on user_details table
+- user login with username and password
+- used profile with all his information
+- edit user profile page
+- logout
+
+
+MAIL_MAILER=smtp
+MAIL_HOST=smtp.mailtrap.io
+MAIL_PORT=2525
+MAIL_USERNAME=null
+MAIL_PASSWORD=null
+MAIL_ENCRYPTION=null
